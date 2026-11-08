@@ -1,0 +1,4 @@
+# cuTile finds tileiras through the CUDA toolkit. Pin it for reproducible
+# builds by uncommenting and pointing at your CUDA 13.3+ install.
+# [env]
+# CUDA_TOOLKIT_PATH = { value = "/usr/local/cuda-13.3", relative = false }

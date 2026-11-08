@@ -1,0 +1,18 @@
+[package]
+name = "tilelab-kernels"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "cuTile Rust kernels for the tilelab playground"
+
+[dependencies]
+cutile.workspace = true
+cuda-core.workspace = true
+
+[dev-dependencies]
+tilelab-ref.workspace = true
+
+[[bin]]
+name = "bench_vector_add"
+path = "src/bin/bench_vector_add.rs"
