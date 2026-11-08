@@ -1,0 +1,9 @@
+[package]
+name = "tilelab-ref"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "CPU reference implementations and tolerance checks for tilelab kernels"
+
+[dependencies]

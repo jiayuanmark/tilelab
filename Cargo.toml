@@ -1,0 +1,14 @@
+[workspace]
+resolver = "2"
+members = ["crates/*"]
+
+[workspace.package]
+edition = "2021"
+rust-version = "1.89"
+license = "Apache-2.0"
+
+[workspace.dependencies]
+# cuTile Rust is pre-1.0 and breaks APIs between minors, so pin exactly.
+cutile = "=0.5.0"
+cuda-core = "=0.5.0"
+tilelab-ref = { path = "crates/tilelab-ref" }
